@@ -20,4 +20,4 @@ jobs:
           username: ${{ secrets.DO_USER }}
           key: ${{ secrets.DO_SSH_KEY }}
           source: "./*"
-          target: "/var/www/instapay-calc"
+          target: "/var/www/me"
